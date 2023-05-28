@@ -6,7 +6,7 @@
  ```bash
  sudo visudo
  ```
-1. Append this line `username   ALL=(ALL:ALL) NOPASSWD:ALL` at the end of the `/etc/sudoers` file
+2. Append this line `username   ALL=(ALL:ALL) NOPASSWD:ALL` at the end of the `/etc/sudoers` file
  ```bash
  # User privilege specification
  root    ALL=(ALL:ALL) ALL
@@ -22,7 +22,7 @@
  @includedir /etc/sudoers.d
  kc      ALL=(ALL:ALL) NOPASSWD:ALL
  ```
-1. Open a new terminal window and test the command with **root** privileges
+3. Open a new terminal window and test the command with **root** privileges
  ```bash
  sudo apt-get update
  ```
