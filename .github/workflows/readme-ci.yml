@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "**"
-    paths:
-      - "**.md"
+    # paths:
+    #   - "**.md"
 
   workflow_dispatch:
 
